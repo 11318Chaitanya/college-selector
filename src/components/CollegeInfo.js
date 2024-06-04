@@ -3,7 +3,7 @@ import { Stack, Typography } from "@mui/material";
 
 const CollegeInfo = ({ selectedCollege, logoUrl, loading }) => (
   <Stack marginTop="20px" alignItems="center">
-    <Typography variant="h4" component="h1" gutterBottom>
+    <Typography variant="h4" component="h2" gutterBottom>
       {selectedCollege.name}
     </Typography>
     {logoUrl && !loading ? (
